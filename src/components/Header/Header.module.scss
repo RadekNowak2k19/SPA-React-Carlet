@@ -1,0 +1,15 @@
+@use "../../scss/colors.scss" as *;
+.header {
+	align-items: center;
+	border-bottom: 1px solid $shrekColor;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem 1rem;
+}
+/* lg */
+@media (min-width: 1024px) {
+	.header {
+		padding: 1.5rem 2.5rem;
+	}
+}

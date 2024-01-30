@@ -1,0 +1,10 @@
+@use "../../scss/colors.scss" as *;
+.link {
+	color: $headingColor;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 18px;
+	&:hover {
+		color: $shrekColor;
+	}
+}

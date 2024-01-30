@@ -1,0 +1,17 @@
+.navigationContainer {
+	.navigation {
+		display: none;
+		ul {
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+			gap: 2rem;
+		}
+	}
+}
+/* lg */
+@media (min-width: 1024px) {
+	.navigationContainer .navigation {
+		display: block;
+	}
+}
