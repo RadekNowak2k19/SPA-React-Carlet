@@ -1,0 +1,22 @@
+@use "../../scss/colors.scss" as *;
+.overview {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	&_desc {
+		h2 {
+			font-weight: 500;
+			color: $headingColor;
+			letter-spacing: 1px;
+			padding-bottom: 0.5rem;
+			font-size: 30px;
+		}
+		p {
+			color: $bodyColor;
+			letter-spacing: 1px;
+			padding: 0.5rem 0;
+		}
+	}
+	&_li {
+	}
+}

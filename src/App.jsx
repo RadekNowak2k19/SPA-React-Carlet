@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Header } from "./components/Header/Header";
 import { Navigation } from "./components/Navigation/Navigation";
 import { SectionPrimary } from "./components/Section/SectionPrimary";
+import { SectionOverview } from "./components/Section/SectionOverview";
 export const App = () => {
 	const [isMobileNav, setIsMobileNav] = useState(false);
 	useEffect(() => {
@@ -18,6 +19,7 @@ export const App = () => {
 			{isMobileNav && <Navigation setIsMobileNav={setIsMobileNav} />}
 			<main>
 				<SectionPrimary />
+				<SectionOverview />
 			</main>
 		</>
 	);
