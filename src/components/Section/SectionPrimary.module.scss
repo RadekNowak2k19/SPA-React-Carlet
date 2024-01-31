@@ -1,0 +1,95 @@
+@use "../../scss/colors.scss" as *;
+.section {
+	margin: 0 auto !important;
+	.image {
+		width: 300px;
+		height: 300px;
+	}
+	.content {
+		h1 {
+			color: $headingColor;
+			letter-spacing: 1px;
+			width: 80%;
+			font-size: 40px;
+			font-weight: normal;
+			line-height: 1.1;
+			padding: 0.5rem 0;
+		}
+		p {
+			color: $bodyColor;
+			font-size: 16px;
+			letter-spacing: 1px;
+			width: 95%;
+			padding: 0.5rem 0;
+		}
+	}
+}
+// https://www.youtube.com/@slayingthedragon
+// * xs */
+@media (min-width: 475px) {
+	.section {
+		.image {
+			width: 360px;
+			height: 360px;
+		}
+		.content {
+			h1 {
+				font-size: 48px;
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+	}
+}
+/* sm */
+@media (min-width: 640px) {
+	.section {
+		.image {
+			width: 400px;
+			height: 400px;
+		}
+	}
+}
+/* md */
+@media (min-width: 768px) {
+	.section {
+		.image {
+			width: 450px;
+			height: 450px;
+		}
+		.content {
+			h1 {
+				font-size: 54px;
+			}
+		}
+	}
+}
+/* lg */
+@media (min-width: 1024px) {
+	.section {
+		align-items: center;
+		max-width: 1500px;
+		display: flex;
+		justify-content: space-between;
+		gap: 5rem;
+		.image {
+			width: 550px;
+			height: 550px;
+		}
+		.content {
+			h1 {
+				font-size: 64px;
+			}
+		}
+	}
+}
+/* xl */
+@media (min-width: 1280px) {
+	.section .content h1 {
+		width: 65%;
+	}
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}
