@@ -1,0 +1,19 @@
+@use "../../scss/colors.scss" as *;
+.movieContainer {
+	border-radius: 12px;
+	cursor: pointer;
+	display: block;
+	max-width: 1500px;
+	margin: 0 auto;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	img {
+		border-radius: 12px;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		-ms-border-radius: 12px;
+		-o-border-radius: 12px;
+	}
+}

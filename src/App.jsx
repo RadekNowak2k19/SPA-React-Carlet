@@ -4,6 +4,7 @@ import { Header } from "./components/Header/Header";
 import { Navigation } from "./components/Navigation/Navigation";
 import { SectionPrimary } from "./components/Section/SectionPrimary";
 import { SectionOverview } from "./components/Section/SectionOverview";
+import { SectionMovie } from "./components/Section/SectionMovie";
 export const App = () => {
 	const [isMobileNav, setIsMobileNav] = useState(false);
 	useEffect(() => {
@@ -20,6 +21,7 @@ export const App = () => {
 			<main>
 				<SectionPrimary />
 				<SectionOverview />
+				<SectionMovie />
 			</main>
 		</>
 	);

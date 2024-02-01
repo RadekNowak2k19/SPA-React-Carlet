@@ -1,5 +1,6 @@
 @use "../../scss/colors.scss" as *;
 .overview {
+	max-width: 1500px;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
@@ -9,14 +10,47 @@
 			color: $headingColor;
 			letter-spacing: 1px;
 			padding-bottom: 0.5rem;
-			font-size: 30px;
 		}
 		p {
 			color: $bodyColor;
 			letter-spacing: 1px;
 			padding: 0.5rem 0;
+			font-size: 18px;
 		}
 	}
 	&_li {
 	}
+}
+// * xs */
+@media (min-width: 475px) {
+}
+/* sm */
+@media (min-width: 640px) {
+}
+/* md */
+@media (min-width: 768px) {
+}
+/* lg */
+@media (min-width: 1024px) {
+	.overview {
+		flex-direction: row;
+		&_desc {
+			width: 50%;
+			h2 {
+				text-align: center;
+			}
+			p {
+				text-align: justify;
+			}
+		}
+		&_li {
+			width: 50%;
+		}
+	}
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
 }
