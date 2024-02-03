@@ -1,0 +1,26 @@
+@use "../../scss/colors.scss" as *;
+.commentContainer {
+	padding: 32px;
+	border: 1px solid $borderColor;
+	.comment {
+		color: $bodyColor;
+		letter-spacing: 1px;
+	}
+	.commentInfo {
+		margin-top: 1rem;
+		.stars {
+			display: flex;
+		}
+		.customerReview {
+			margin-top: 0.5rem;
+			color: $bodyColor;
+			font-weight: bold;
+			.author {
+				margin-right: 0.25rem;
+			}
+			.date {
+				margin-left: 0.25rem;
+			}
+		}
+	}
+}

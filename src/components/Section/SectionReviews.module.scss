@@ -1,0 +1,40 @@
+@use "../../scss/colors.scss" as *;
+.sectionReviews {
+	display: block;
+	max-width: 1500px;
+	margin: 0 auto;
+	h2 {
+		color: $headingColor;
+		font-weight: 500;
+		letter-spacing: 1px;
+		padding-bottom: 0.5rem;
+	}
+	.commentsContainer {
+		display: grid;
+		gap: 1px;
+	}
+}
+// * xs */
+@media (min-width: 475px) {
+}
+/* sm */
+@media (min-width: 640px) {
+}
+/* md */
+@media (min-width: 768px) {
+	.sectionReviews .commentsContainer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+/* lg */
+@media (min-width: 1024px) {
+	.sectionReviews .commentsContainer {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}
