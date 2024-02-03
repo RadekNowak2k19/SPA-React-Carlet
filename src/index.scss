@@ -47,6 +47,9 @@ section {
 	margin: 0 auto !important;
 	padding-bottom: 2.5rem;
 }
+h2 {
+	@include HeadingSecondary();
+}
 p {
 	@include Paragraph();
 }

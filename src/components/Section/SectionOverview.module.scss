@@ -5,20 +5,12 @@
 	flex-direction: column;
 	gap: 2rem;
 	&_desc {
-		h2 {
-			font-weight: 500;
-			color: $headingColor;
-			letter-spacing: 1px;
-			padding-bottom: 0.5rem;
-		}
-		p {
-			color: $bodyColor;
-			letter-spacing: 1px;
-			padding: 0.5rem 0;
-			font-size: 18px;
-		}
-	}
-	&_li {
+		// h2 {
+		// 	font-weight: 500;
+		// 	color: $headingColor;
+		// 	letter-spacing: 1px;
+		// 	padding-bottom: 0.5rem;
+		// }
 	}
 }
 // * xs */
@@ -38,9 +30,6 @@
 			width: 50%;
 			h2 {
 				text-align: center;
-			}
-			p {
-				text-align: justify;
 			}
 		}
 		&_li {

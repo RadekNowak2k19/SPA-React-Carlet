@@ -7,4 +7,8 @@
 	padding: 0.5rem 0;
 }
 @mixin HeadingSecondary {
+	font-weight: 500;
+	color: $headingColor;
+	letter-spacing: 1px;
+	padding-bottom: 0.5rem;
 }

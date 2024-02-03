@@ -3,7 +3,7 @@ import styles from "./Comment.module.scss";
 export const Comment = ({ comments }) => {
 	return (
 		<div className={styles.commentContainer}>
-			<p className={styles.comment}>{comments.comment}</p>
+			<p>{comments.comment}</p>
 			<div className={styles.commentInfo}>
 				<div className={styles.stars}>
 					<StarIcon length={comments.rating} />

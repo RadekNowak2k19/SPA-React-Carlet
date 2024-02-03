@@ -2,10 +2,6 @@
 .commentContainer {
 	padding: 32px;
 	border: 1px solid $borderColor;
-	.comment {
-		color: $bodyColor;
-		letter-spacing: 1px;
-	}
 	.commentInfo {
 		margin-top: 1rem;
 		.stars {
