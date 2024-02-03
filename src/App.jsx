@@ -6,6 +6,8 @@ import { SectionPrimary } from "./components/Section/SectionPrimary";
 import { SectionOverview } from "./components/Section/SectionOverview";
 import { SectionMovie } from "./components/Section/SectionMovie";
 import { SectionReviews } from "./components/Section/SectionReviews";
+import { HowToUse } from "./components/Section/HowToUse";
+import { SectionAdvantages } from "./components/Section/SectionAdvantages";
 export const App = () => {
 	const [isMobileNav, setIsMobileNav] = useState(false);
 	useEffect(() => {
@@ -24,6 +26,8 @@ export const App = () => {
 				<SectionOverview />
 				<SectionMovie />
 				<SectionReviews />
+				<HowToUse />
+				<SectionAdvantages />
 			</main>
 		</>
 	);

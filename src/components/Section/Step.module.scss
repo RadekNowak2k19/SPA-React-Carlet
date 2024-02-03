@@ -1,0 +1,12 @@
+.stepContainer {
+	span {
+		color: #413f3d;
+		font-size: 24px;
+		letter-spacing: 1px;
+	}
+}
+@media (min-width: 1024px) {
+	.stepContainer span {
+		font-size: 32px;
+	}
+}

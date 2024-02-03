@@ -1,0 +1,62 @@
+.howToUseContainer {
+	display: block;
+	margin: 0 auto;
+	max-width: 1500px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	.imgContainer {
+		width: 100%;
+		height: 400px;
+		margin: 0 auto;
+		border-radius: 12px;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		-ms-border-radius: 12px;
+		-o-border-radius: 12px;
+		img {
+			border-radius: 12px;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			-ms-border-radius: 12px;
+			-o-border-radius: 12px;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+// * xs */
+@media (min-width: 475px) {
+	.howToUseContainer {
+		.imgContainer {
+			width: 450px;
+			height: 450px;
+		}
+	}
+}
+/* sm */
+@media (min-width: 640px) {
+}
+/* md */
+@media (min-width: 768px) {
+}
+/* lg */
+@media (min-width: 1024px) {
+	.howToUseContainer {
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+		.imgContainer {
+			margin: 0;
+			height: 500px;
+			width: 500px;
+		}
+	}
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}

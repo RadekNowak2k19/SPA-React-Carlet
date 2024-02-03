@@ -102,3 +102,30 @@ export const reviews = [
 		rating: 5,
 	},
 ];
+export const howToUseData = [
+	{
+		id: 0,
+		step: 1,
+		text: "Cleanse your face and pat it dry.",
+	},
+	{
+		id: 1,
+		step: 2,
+		text: "Gently roll the skin roller over your face and neck, using light pressure and upward strokes.",
+	},
+	{
+		id: 2,
+		step: 3,
+		text: "Pay extra attention to areas of concern, such as fine lines, wrinkles, and under-eye bags",
+	},
+	{
+		id: 3,
+		step: 4,
+		text: "Apply your favorite skincare products immediately after rolling to maximize absorption",
+	},
+	{
+		id: 4,
+		step: 5,
+		text: "Clean the roller with mild soap and water after each use and allow it to air dry.",
+	},
+];
