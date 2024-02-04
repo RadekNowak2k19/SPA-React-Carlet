@@ -1,0 +1,43 @@
+@use "../../scss/colors.scss" as *;
+.imagesGallery {
+	max-width: 1500px;
+	margin: 0 auto;
+	display: grid;
+	gap: 2rem;
+	.image {
+		margin: 0 auto;
+	}
+	.image,
+	.image img {
+		border-radius: 12px;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		-ms-border-radius: 12px;
+		-o-border-radius: 12px;
+	}
+}
+
+// * xs */
+@media (min-width: 475px) {
+}
+/* sm */
+@media (min-width: 640px) {
+}
+/* md */
+@media (min-width: 768px) {
+	.imagesGallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+/* lg */
+@media (min-width: 1024px) {
+	.imagesGallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}

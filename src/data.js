@@ -1,4 +1,19 @@
-import { atom, fb, heart, ig, lk, star, twitter, yt } from "./images";
+import {
+	atom,
+	fb,
+	heart,
+	ig,
+	item1,
+	item2,
+	item3,
+	item4,
+	item5,
+	item6,
+	lk,
+	star,
+	twitter,
+	yt,
+} from "./images";
 
 export const navigation = [
 	"Home",
@@ -151,3 +166,4 @@ export const socialMediaLinks = [
 		brand: ig,
 	},
 ];
+export const imagesGallery = [item1, item2, item3, item4, item5, item6];
