@@ -1,0 +1,15 @@
+@use "../../scss/colors.scss" as *;
+.footer {
+	border-top: 1px solid $borderColor;
+	padding: 1rem 0 2rem;
+	text-align: center;
+	font-size: 20px;
+	a {
+		margin-left: 0.5rem;
+		color: $bodyColor;
+		text-decoration: none;
+		&:hover {
+			color: $browColor;
+		}
+	}
+}

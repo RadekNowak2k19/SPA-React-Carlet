@@ -11,6 +11,7 @@ import { SectionAdvantages } from "./components/Section/SectionAdvantages";
 import { SectionOrder } from "./components/Section/SectionOrder";
 import { SectionNewsletter } from "./components/Section/SectionNewsletter";
 import { SectionImagesGallery } from "./components/Section/SectionImagesGallery";
+import { Footer } from "./components/Footer/Footer";
 export const App = () => {
 	const [isMobileNav, setIsMobileNav] = useState(false);
 	useEffect(() => {
@@ -35,6 +36,7 @@ export const App = () => {
 				<SectionNewsletter />
 				<SectionImagesGallery />
 			</main>
+			<Footer />
 		</>
 	);
 };
