@@ -84,6 +84,12 @@ p {
 .btnQuantity {
 	cursor: pointer;
 }
+.send {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline-color: $browColor;
+}
 // https://www.youtube.com/@slayingthedragon
 // * xs */
 @media (min-width: 475px) {

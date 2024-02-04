@@ -1,4 +1,4 @@
-import { atom, heart, star } from "./images";
+import { atom, fb, heart, ig, lk, star, twitter, yt } from "./images";
 
 export const navigation = [
 	"Home",
@@ -127,5 +127,27 @@ export const howToUseData = [
 		id: 4,
 		step: 5,
 		text: "Clean the roller with mild soap and water after each use and allow it to air dry.",
+	},
+];
+export const socialMediaLinks = [
+	{
+		id: 0,
+		brand: fb,
+	},
+	{
+		id: 1,
+		brand: twitter,
+	},
+	{
+		id: 2,
+		brand: yt,
+	},
+	{
+		id: 3,
+		brand: lk,
+	},
+	{
+		id: 4,
+		brand: ig,
 	},
 ];

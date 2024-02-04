@@ -9,6 +9,7 @@ import { SectionReviews } from "./components/Section/SectionReviews";
 import { HowToUse } from "./components/Section/HowToUse";
 import { SectionAdvantages } from "./components/Section/SectionAdvantages";
 import { SectionOrder } from "./components/Section/SectionOrder";
+import { SectionNewsletter } from "./components/Section/SectionNewsletter";
 export const App = () => {
 	const [isMobileNav, setIsMobileNav] = useState(false);
 	useEffect(() => {
@@ -30,6 +31,7 @@ export const App = () => {
 				<HowToUse />
 				<SectionAdvantages />
 				<SectionOrder />
+				<SectionNewsletter />
 			</main>
 		</>
 	);

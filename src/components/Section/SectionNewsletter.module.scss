@@ -1,0 +1,75 @@
+@use "../../scss/colors.scss" as *;
+.newletterContainer {
+	margin: 0 auto;
+	max-width: 1500px;
+	h2,
+	p {
+		text-align: center;
+	}
+	.sendEmail {
+		align-items: center;
+		margin: 2rem 0;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid $borderColor;
+		input {
+			background-color: transparent !important;
+			border: none;
+			height: 30px;
+			width: calc(100% - 30%);
+			outline-color: $browColor;
+		}
+	}
+	.links {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		.link {
+			align-items: center;
+			border: 1px solid $borderColor;
+			border-radius: 100%;
+			-webkit-border-radius: 100%;
+			-moz-border-radius: 100%;
+			-ms-border-radius: 100%;
+			-o-border-radius: 100%;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			height: 40px;
+			outline-color: $browColor;
+			transition: all 0.3s ease-in-out;
+			-webkit-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			-ms-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			width: 40px;
+			&:hover {
+				scale: 1.2;
+			}
+		}
+	}
+}
+// * xs */
+@media (min-width: 475px) {
+}
+/* sm */
+@media (min-width: 640px) {
+	.newletterContainer {
+		width: 500px;
+	}
+}
+/* md */
+@media (min-width: 768px) {
+	.newletterContainer {
+		width: 600px;
+	}
+}
+/* lg */
+@media (min-width: 1024px) {
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}

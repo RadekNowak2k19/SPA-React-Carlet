@@ -5,8 +5,8 @@ export const PaperAirPlane = () => {
 			fill="none"
 			viewBox="0 0 24 24"
 			strokeWidth={1.5}
-			stroke="currentColor"
-			className="w-6 h-6"
+			stroke="#abaa6c"
+			style={{ width: "30px", height: "30px" }}
 		>
 			<path
 				strokeLinecap="round"
