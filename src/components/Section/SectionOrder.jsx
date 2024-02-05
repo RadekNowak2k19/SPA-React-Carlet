@@ -1,8 +1,17 @@
 import { useState } from "react";
 import styles from "./SectionOrder.module.scss";
+import { Button } from "./Button";
 export const SectionOrder = () => {
 	const [quantity, setQuantity] = useState(1);
 	const colors = ["#ce7847", "#abaa6c", "#696666"];
+
+	const handleQuantity = direction => {
+		if (direction === "increase") setQuantity(quantity + 1);
+		if (direction === "decrease") {
+			if (quantity <= 0) return;
+			else setQuantity(quantity - 1);
+		}
+	};
 
 	return (
 		<section className={styles.orderContainer}>
@@ -40,25 +49,21 @@ export const SectionOrder = () => {
 						</div>
 						<div className={styles.currentQuantity}>
 							<button
-								onClick={() => {
-									setQuantity(quantity - 1);
-								}}
+								onClick={() => handleQuantity("decrease")}
 								className={`${styles.square} btnQuantity`}
 							>
 								-
 							</button>
 							<div className={styles.square}>{quantity}</div>
 							<button
-								onClick={() => {
-									setQuantity(quantity + 1);
-								}}
+								onClick={() => handleQuantity("increase")}
 								className={`${styles.square} btnQuantity`}
 							>
 								+
 							</button>
 						</div>
 					</div>
-					<button className="btn">Order Now</button>
+					<Button>Order now</Button>
 				</div>
 			</div>
 		</section>
