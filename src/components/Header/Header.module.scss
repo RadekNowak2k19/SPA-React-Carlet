@@ -1,11 +1,15 @@
 @use "../../scss/colors.scss" as *;
 .header {
+	background-color: $backGroundColor;
 	align-items: center;
 	border-bottom: 1px solid $shrekColor;
 	cursor: pointer;
 	display: flex;
 	justify-content: space-between;
 	padding: 1.5rem 1rem;
+	position: sticky;
+	top: 0;
+	left: 0;
 }
 /* lg */
 @media (min-width: 1024px) {
